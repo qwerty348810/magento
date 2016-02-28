@@ -1,0 +1,172 @@
+<html>
+	<head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+		<script type="text/javascript" src="js.js"></script>
+    </head>
+	<body>
+		<header>
+			<div id="logo"><a href="">AMEDEYA | АМЕДЕЯ</a></div>
+			<div id="tagline">Толкование снов и сонники, астрология и гадания, секреты магии и любви, психология, эзотерические практики, карты Таро и еще многое другое.</div> 
+			<div class="menu">
+			
+			</div>
+		</header>
+		<div id="panel_letter">
+        	<h1 id="words_letter">Сонник онлайн - бесплатное толкование снов</h1>
+        			
+			<div id="letter">
+				<a class="n" href="a/">А</a>
+				
+				<a class="n" href="б/">Б</a>
+
+				<a class="n" href="в/">В</a>
+
+				<a class="n" href="г/">Г</a>
+
+				<a class="n" href="д/">Д</a>
+
+				<a class="n" href="е/">Е</a>
+
+				<a class="n" href="ж/">Ж</a>
+
+				<a class="n" href="з/">З</a>
+
+				<a class="n" href="и/">И</a>
+
+				<a class="n" href="к/">К</a>
+
+				<a class="n" href="л/">Л</a>
+
+				<a class="n" href="м/">М</a>
+
+				<a class="n" href="н/">Н</a>
+
+				<a class="n" href="о/">О</a>
+
+				<a class="n" href="п/">П</a>
+
+				<a class="n" href="р/">Р</a>
+
+				<a class="n" href="с/">С</a>
+
+				<a class="n" href="т/">Т</a>
+
+				<a class="n" href="у/">У</a>
+
+				<a class="n" href="ф/">Ф</a>
+
+				<a class="n" href="х/">Х</a>
+
+				<a class="n" href="ц/">Ц</a>
+
+				<a class="n" href="ч/">Ч</a>
+
+				<a class="n" href="ш/">Ш</a>
+
+				<a class="n" href="щ/">Щ</a>
+
+				<a class="n" href="э/">Э</a>
+
+				<a class="n" href="ю/">Ю</a>
+
+				<a class="n" href="я/">Я</a>
+				
+			</div>
+			
+			<div class="what">
+				<p>Что вы видели во сне?</p>
+			</div>
+					<div id="newsletter" class="row">
+							
+							
+						<div class="search">
+																
+							<form id="newsletter_form" method="get" action="http://amedeya.com">
+								<div id="search_field">
+									
+									<input class="search_placeholder" type="text" value="" name="s" placeholder="Введите ключевое слово из сна" size="40px">
+									<input class="buttoms" type="submit" value="Поиск">
+										
+								</div>
+							</form>						
+						</div>
+					</div>	
+		</div>
+		<div class="info_block">
+			<div class="info_img">
+				<img>
+			</div>
+			<div class="info_words">
+				<p></p>
+			</div>
+		</div>
+		<div class="info_block">
+			<div class="info_img">
+				<img>
+			</div>
+			<div class="info_words">
+				<p></p>
+			</div>
+		</div>
+		<div class="info_block">
+			<div class="info_img">
+				<img>
+			</div>
+			<div class="info_words">
+				<p></p>
+			</div>
+		</div>
+		<div id="dream">
+	
+			<div class="dream_buttons">
+				
+					
+					<input type="submit" value="<" class="dream_back" onclick="move_back();">
+					<input type="submit" value="Вчера" class="dream_center" onclick="dream_hover1();">
+					<input type="submit" value="Сегодня" class="dream_center" onclick="dream_hover2();">
+					<input type="submit" value="Завтра" class="dream_center" onclick="dream_hover3();">
+					<input type="submit" value=">" class="dream_go" onclick="move_go();">
+					
+					<input type="submit" value="<" class="dream_back" onclick="move_back();">
+					<input type="submit" value="25" id="dream_date">
+									
+					<script>
+var day = new Date();
+var n = day.getDate();
+var test_day= ["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32"];
+var t = test_day[n];
+document.getElementById('dream_date').value=t;
+																         
+					</script>
+					
+					
+					<input type="submit" value="Февраля" id="dream_month">		
+				
+					<script type="text/javascript">
+var mon=new Date();
+var month=new Array(12);
+month[0]="Января";
+month[1]="Февраля";
+month[2]="Марта";
+month[3]="Апреля";
+month[4]="Мая";
+month[5]="Июня";
+month[6]="Июля";
+month[7]="Августа";
+month[8]="Сентября";
+month[9]="Октября";
+month[10]="Ноября";
+month[11]="Декабря";
+document.getElementById('dream_month').value=month[mon.getMonth()];
+	
+					</script> 
+					
+					<input type="submit" value="2016" id="dream_year">
+					
+					<script type="text/javascript">
+					var d = new Date();
+					document.getElementById('dream_year').value=d.getFullYear();
+					</script> 
